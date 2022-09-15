@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from "../assets/Firmenlogo Bilddatei.png"
+import LogoTransparent from "../assets/Firmenlogo transparent.png"
 
 const Nav = () => {
     return (
         <nav>
             <div className="nav__container">
                 <a href="/">
-                    <img src={Logo} alt="" className="logo" />
+                    <img src={LogoTransparent} alt="" className="logo" />
                 </a>
                 <ul className="nav__links">
                     <li className="nav__list">
