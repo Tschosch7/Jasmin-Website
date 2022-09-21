@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "Massage",
+    "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?",
+    "image": "../assets/IMG_2312.JPG"
+  },
+  {
+    "id": 2,
+    "name": "Djjae",
+    "para": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam" 
+  },
+  {
+    "id": 3,
+    "name": "Pistole",
+    "para": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores," 
+  },
+  {
+    "id": 4,
+    "name": "Wie",
+    "para": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi." 
+  },
+  {
+    "id": 5,
+    "name": "Wo",
+    "para": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi." 
+  },
+  {
+    "id": 6,
+    "name": "Aliiie",
+    "para": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi." 
+  }
+]

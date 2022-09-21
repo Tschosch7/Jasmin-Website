@@ -1,34 +1,31 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import About from './components/About';
-import Footer from './components/Footer';
-import Landing from './components/Landing';
-import Nav from './components/Nav';
-import Services from './components/Services';
-import Testimonials from "./components/Testimonials";
-import './index.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar,   faArrowRight,
-  faArrowLeft, faChevronDown } from '@fortawesome/free-solid-svg-icons'
-import FAQ from "./components/FAQ";
-import ContactButton from "./components/ContactButton";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import "./index.css";
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Kontakt from "./pages/Kontakt";
+import Leistungen from "./pages/Leistungen";
+import Preise from "./pages/Preise";
+import Leistung from "./pages/Leistung";
+
 
 function App() {
   return (
-    <div className='App'>
-    <Nav />
-    <Landing />
-    <ContactButton/>
-    <About/>
-    <Services/>
-    <Testimonials/>
-    <FAQ/>
-    <Footer/>
+    <div className="App">
+      <Router>
+        <Nav/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/leistungen" element={<Leistungen/>}/>
+          <Route path="/leistungen/:name" element={<Leistung/>}/>
+          <Route path="/preise" element={<Preise/>}/>
+          <Route path="/kontakt" element={<Kontakt/>}/>
+        </Routes>
+        <Footer/>
+      </Router>
     </div>
   );
 }

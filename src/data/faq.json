@@ -1,0 +1,27 @@
+[
+    {
+     "id": 1,
+     "question": "Wann sollte ein Pferd behandelt werden?",
+     "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?"
+    },
+    {
+     "id": 2,
+     "question": "Wie viel kostet eine Behandlung?",
+     "answer": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam"
+    },
+    {
+     "id": 3,
+     "question": "Wieso du?",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,"
+    },
+    {
+     "id": 4,
+     "question": "Wie läuft eine Behandlung ab?",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
+    },
+    {
+     "id": 5,
+     "question": "Wo behandelst du überall?",
+     "answer": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi."
+    }
+   ]

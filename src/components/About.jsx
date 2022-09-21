@@ -12,14 +12,14 @@ const About = () => {
             </figure>
             <div className="about__text--wrapper">
             <h3 className="section__title">Über mich</h3>
-              <h2>Pferdephysio und Osteopathie</h2>
+              <h2>Pferdephysio</h2>
               <p className="section__para">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Provident perferendis, sit vitae, necessitatibus illo molestias
                 eaque unde, quis quia voluptatem itaque ipsam sequi!
                 Consequuntur officia accusantium dolor error iure voluptate.
               </p>
-              <button className="btn">Mehr erfahren</button>
+              <button className="btn btn-secondary--responsive">Mehr erfahren</button>
             </div>
           </div>
         </div>

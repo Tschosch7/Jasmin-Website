@@ -16,108 +16,109 @@ const Footer = () => {
       <div className="footer__container">
         <div className="row">
           <div className="links">
-            <a href="#" className="link">
+            <Link to="/" className="link">
               <h3 className="link__h3">Home</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Referenzen
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
                     FAQ
-                  </a>
+                  </Link>
                 </li>
               </ul>
-            </a>
-            <a href="#about" className="link">
+            </Link>
+            <Link to="/about" className="link">
               <h3 className="link__h3">Über mich</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Motivation
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Werte
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
                     Qualifikationen
-                  </a>
+                  </Link>
                 </li>
               </ul>
-            </a>
-            <a href="#" className="link">
+            </Link>
+            <Link to="/leistungen" className="link">
               <h3 className="link__h3">Leistungen</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Pferdephysio
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
                     Osteopathie
-                  </a>
+                  </Link>
                 </li>
               </ul>
-            </a>
-            <a href="#" className="link">
+            </Link>
+            <Link to="/preise" className="link">
               <h3 className="link__h3">Preise</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Preisliste
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
           
-                  </a>
+                  </Link>
                 </li>
               </ul>
-            </a>
-            <a href="#" className="link">
+            </Link>
+            <Link to="/kontakt" className="link">
               <h3 className="link__h3">Kontakt</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     0172 9318571
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
-                    marburger@pferdetherapie.de
-                  </a>
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
+                    Email
+                  </Link>
                 </li>
               </ul>
-            </a>
+            </Link>
             <div className="link">
-              <h3 className="link__h3 no-link">Legal</h3>
-              <ul class="link__ul">
-                <li class="link__li">
-                  <a href="#testimonials" class="link__anchor">
+              <h3 className="link__h3 no-link">Rechtliches</h3>
+              <ul className="link__ul">
+                <li className="link__li">
+                  <Link to="#testimonials" className="link__anchor">
                     Impressum
-                  </a>
+                  </Link>
                 </li>
-                <li class="link__li">
-                  <a href="#faq" class="link__anchor">
+                <li className="link__li">
+                  <Link to="#faq" className="link__anchor">
                     Datenschutz
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
+          <div className="footer__border"></div>
           <div className="footer__info">
             <div className="footer__logo--wrapper">
-                <a href="#">
+                <Link to="#">
               <img className="footer__logo" src={LogoTransparent} alt="" />
               <div className="footer__logo--text"></div>
-              </a>
+              </Link>
             </div>
             <div className="copyright">
               &copy;2022 Jasmin Marburger Pferdetherapie
